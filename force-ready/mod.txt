@@ -1,0 +1,22 @@
+{
+	"name" : "Force Ready",
+	"description" : "Forces the game to start, for thoes times when people just take forever.",
+	"author" : "Morganamilo",
+	"contact" : "http://steamcommunity.com/id/morganamilo",
+	"version" : "1",
+	"blt_version" : 2,
+	"image": "force_ready.tga",
+	"color" : "255 0 221"
+	
+	"keybinds" : [
+		{
+			"keybind_id" : "force_ready",
+			"name" : "Force Ready",
+			"description" : "Forces the game to start, for thoes times when people just take forever.",
+			"script_path" : "force_ready.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized": false
+		}
+	]
+}

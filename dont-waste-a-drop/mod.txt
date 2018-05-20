@@ -1,0 +1,16 @@
+{
+	"name": "Don't Waste a Drop",
+	"description": "Stops you from using the hip flask if you have no damage over time",
+	"author" : "Morganamilo",
+	"contact" : "http://steamcommunity.com/id/morganamilo",
+	"version" : "1",
+	"blt_version" : 2,
+	"image" : "dont-waste-a-drop.png",
+	"color" : "255 0 221"
+	"hooks": [
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "mod.lua"
+		}
+	]
+}
