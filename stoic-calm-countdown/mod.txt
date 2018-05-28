@@ -6,6 +6,7 @@
 	"version" : "1",
 	"blt_version" : 2,
 	"color" : "255 0 221",
+	"image" : "stoic-calm-countdown.png",
 	"hooks": [
 		
 		{
