@@ -1,0 +1,20 @@
+{
+	"name": "Stoic Calm Countdown",
+	"description": "Shows a countdown on the hud for the stoic calm effect.",
+	"author" : "Morganamilo",
+	"contact" : "http://steamcommunity.com/id/morganamilo",
+	"version" : "1",
+	"blt_version" : 2,
+	"color" : "255 0 221",
+	"hooks": [
+		
+		{
+			"hook_id" : "lib/player_actions/skills/playeractiondamagecontrol",
+			"script_path" : "playeractiondamagecontrol.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hud/hudteammate",
+			"script_path" : "hudteammate.lua"
+		}
+	]
+}
