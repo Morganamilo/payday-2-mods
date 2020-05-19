@@ -3,7 +3,7 @@
 	"description" : "Forces the game to start, for thoes times when people just take forever.",
 	"author" : "Morganamilo",
 	"contact" : "http://steamcommunity.com/id/morganamilo",
-	"version" : "1",
+	"version" : "2",
 	"blt_version" : 2,
 	"image": "force_ready.tga",
 	"color" : "255 0 221"
@@ -14,6 +14,16 @@
 			"name" : "Force Ready",
 			"description" : "Forces the game to start, for thoes times when people just take forever.",
 			"script_path" : "force_ready.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized": false
+		},
+
+		{
+			"keybind_id" : "force_ready_nosync",
+			"name" : "Force Ready No Sync",
+			"description" : "Forces the game to start, even if playings are still joining.",
+			"script_path" : "force_ready_nosync.lua",
 			"run_in_menu" : true,
 			"run_in_game" : true,
 			"localized": false
