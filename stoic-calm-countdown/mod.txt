@@ -3,7 +3,7 @@
 	"description": "Shows a countdown on the hud for the stoic calm effect.",
 	"author" : "Morganamilo",
 	"contact" : "http://steamcommunity.com/id/morganamilo",
-	"version" : "1",
+	"version" : "2",
 	"blt_version" : 2,
 	"color" : "255 0 221",
 	"image" : "stoic-calm-countdown.png",
